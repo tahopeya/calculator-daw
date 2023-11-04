@@ -98,6 +98,35 @@ function calculateCircle() {
         alert('Please enter a valid radius.');
     }
 }
+           // Rectangle Calculator
+function calculateRectangle() {
+    const length = parseFloat(document.getElementById('rectangle-length').value);
+    const width = parseFloat(document.getElementById('rectangle-width').value);
+
+    if (!isNaN(length) && !isNaN(width)) {
+        const area = length * width;
+        const perimeter = 2 * (length + width);
+        document.getElementById('rectangle-area').textContent = area.toFixed(2);
+        document.getElementById('rectangle-perimeter').textContent = perimeter.toFixed(2);
+    } else {
+        alert('Please enter valid dimensions.');
+    }
+}
+
+// Pentagon Calculator
+function calculatePentagon() {
+    const side = parseFloat(document.getElementById('pentagon-side').value);
+
+    if (!isNaN(side)) {
+        const area = (5 * side * side) / (4 * Math.tan(Math.PI / 5));
+        const perimeter = 5 * side;
+        document.getElementById('pentagon-area').textContent = area.toFixed(2);
+        document.getElementById('pentagon-perimeter').textContent = perimeter.toFixed(2);
+    } else {
+        alert('Please enter a valid side length.');
+    }
+}
+ 
         </script>  
     </main>
 </body>
