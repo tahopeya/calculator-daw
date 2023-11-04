@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #F5E8C7;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #818FB4;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: #818FB4;
     padding: 0;
-    background-color: #333;
+    background-color: ;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #363062;
     text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: 818FB4;
     border: 1px solid #ccc;
 }
 .input-field {
@@ -43,11 +43,16 @@ main {
 
 button {
     background-color: #007BFF;
-    color: #fff;
+    color: #f06868;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #E0F4FF;
+}
+
 
 button:hover {
     background-color: #0056b3;
